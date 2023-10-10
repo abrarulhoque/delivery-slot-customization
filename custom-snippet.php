@@ -6,7 +6,7 @@
  */
 function iconic_change_allowed_days($allowed_days) {
     $chosen_methods = WC()->session->get('chosen_shipping_methods');
-    $chosen_shipping = $chosen_methods[0];
+    $chosen_shipping = !empty($chosen_methods) ? $chosen_methods[0] : null;
 
     // Check if 'flat_rate:3' (allow all days) is selected as the shipping method
     $override_shipping_all_days = 'flat_rate:3';
@@ -28,14 +28,24 @@ function iconic_change_allowed_days($allowed_days) {
         6 => false, // Saturday
     );
 
-    if ($chosen_shipping === $override_shipping_all_days || ($chosen_shipping === $override_shipping_saturday && !$product_category_frozen)) {
-        // If 'flat_rate:3' is selected or 'flat_rate:2' is selected and the product category is not 'frozen', allow all days.
-        foreach ($days as $day => $value) {
-            $days[$day] = true;
+    if (!is_null($chosen_shipping)) {
+        if (isset($_POST['shipping_method']) && is_array($_POST['shipping_method']) && isset($_POST['shipping_method'][0])) {
+            $shipping_method = $_POST['shipping_method'][0];
+        } elseif (!empty($chosen_methods)) {
+            $shipping_method = $chosen_methods[0];
+        } else {
+            $shipping_method = null;
         }
-    } elseif ($chosen_shipping === $override_shipping_saturday || ($chosen_shipping !== $override_shipping_saturday && $product_category_frozen)) {
-        // If 'flat_rate:2' is selected or 'flat_rate:2' is not selected and the product category is 'frozen', allow only Saturday.
-        $days[6] = true; // Saturday
+
+        if ($shipping_method === $override_shipping_all_days || ($shipping_method === $override_shipping_saturday && !$product_category_frozen)) {
+            // If 'flat_rate:3' is selected or 'flat_rate:2' is selected and the product category is not 'frozen', allow all days.
+            foreach ($days as $day => $value) {
+                $days[$day] = true;
+            }
+        } elseif ($shipping_method === $override_shipping_saturday || ($shipping_method !== $override_shipping_saturday && $product_category_frozen)) {
+            // If 'flat_rate:2' is selected or 'flat_rate:2' is not selected and the product category is 'frozen', allow only Saturday.
+            $days[6] = true; // Saturday
+        }
     }
 
     return $days;
@@ -87,7 +97,7 @@ function iconic_conditionally_modify_cutoff_time() {
         return;
     }
 
-    $shipping_method = isset($_POST['shipping_method'][0]) ? $_POST['shipping_method'][0] : $shipping_methods[0];
+    $shipping_method = isset($_POST['shipping_method'][0]) ? $_POST['shipping_method'][0] : (isset($shipping_methods[0]) ? $shipping_methods[0] : null);
 
     // Define the cutoff times based on shipping methods and individual days.
     $cutoff_times = array(
