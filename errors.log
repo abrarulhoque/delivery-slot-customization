@@ -1,0 +1,203 @@
+Here are the errors That I can get when the code is deactivated:
+
+
+
+Deprecated: Creation of dynamic property WpMenuCart::$settings is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/woocommerce-menu-bar-cart/wp-menu-cart.php on line 96
+
+Deprecated: Creation of dynamic property WpMenuCart::$shop is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/woocommerce-menu-bar-cart/wp-menu-cart.php on line 107
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+-----
+
+
+
+And here are the errors that I get when the code is active
+
+
+
+----
+Deprecated: Creation of dynamic property WpMenuCart::$settings is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/woocommerce-menu-bar-cart/wp-menu-cart.php on line 96
+
+Deprecated: Creation of dynamic property WpMenuCart::$shop is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/woocommerce-menu-bar-cart/wp-menu-cart.php on line 107
+
+Warning: Cannot modify header information - headers already sent by (output started at /home/devjca/public_html/vmarket-test/wp-content/plugins/woocommerce-menu-bar-cart/wp-menu-cart.php:96) in /home/devjca/public_html/vmarket-test/wp-includes/functions.php on line 6935
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
+
+Deprecated: Constant FILTER_SANITIZE_STRING is deprecated in /home/devjca/public_html/vmarket-test/wp-content/plugins/iconic-woo-delivery-slots-premium/iconic-woo-delivery-slots.php on line 2551
